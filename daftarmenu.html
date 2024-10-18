@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Menu RDTreats</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-color: #f9f8f6;
+            color: #666666;
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        header {
+            background-color: #de6581;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .menu-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .menu-item {
+            width: 30%;
+            margin-bottom: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item-content {
+            padding: 15px;
+        }
+        .menu-item h3 {
+            margin-top: 0;
+            color: #de6581;
+        }
+        .page-nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border-top: 1px solid #ddd;
+        }
+        .page-nav-button {
+            padding: 10px 20px;
+            background-color: #de6581;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+        .page-nav-button:hover {
+            background-color: #c75470;
+        }
+        footer {
+            background-color: #aeaca8;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8em;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Daftar Menu RDTreats</h1>
+        </header>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="images/menu1.jpg" alt="Menu 1">
+                <div class="menu-item-content">
+                    <h3>Es Krim Cokelat Almond</h3>
+                    <p>Es krim lezat dengan rasa cokelat yang kaya dilengkapi dengan potongan almond.</p>
+                    <p class="price">Rp 25.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu2.jpg" alt="Menu 2">
+                <div class="menu-item-content">
+                    <h3>Es Krim Vanilla Madu</h3>
+                    <p>Vanilla segar dengan sentuhan madu asli, memberikan cita rasa manis yang unik.</p>
+                    <p class="price">Rp 22.000</p>
+                </div>
+            </div>
+            <!-- Tambahkan menu lainnya di sini -->
+            <div class="menu-item">
+                <img src="images/menu3.jpg" alt="Menu 3">
+                <div class="menu-item-content">
+                    <h3>Es Krim Buah Segar</h3>
+                    <p>Es krim segar dengan campuran buah-buahan segar pilihan.</p>
+                    <p class="price">Rp 20.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu4.jpg" alt="Menu 4">
+                <div class="menu-item-content">
+                    <h3>Es Krim Matcha Jepang</h3>
+                    <p>Es krim dengan cita rasa matcha Jepang yang otentik, kaya akan antioksidan.</p>
+                    <p class="price">Rp 28.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu5.jpg" alt="Menu 5">
+                <div class="menu-item-content">
+                    <h3>Es Krim Cookies 'n Cream</h3>
+                    <p>Es krim dengan campuran cookies yang renyah dan krim yang lembut.</p>
+                    <p class="price">Rp 27.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu6.jpeg" alt="Menu 6">
+                <div class="menu-item-content">
+                    <h3>Es Krim Strawberry Fresh</h3>
+                    <p>Es krim dengan potongan stroberi segar dan saus stroberi asli.</p>
+                    <p class="price">Rp 24.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu7.jpg" alt="Menu 7">
+                <div class="menu-item-content">
+                    <h3>Es Krim Pistachio Italia</h3>
+                    <p>Es krim pistachio asli dari Italia dengan rasa khas dan tekstur lembut.</p>
+                    <p class="price">Rp 30.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu8.jpeg" alt="Menu 8">
+                <div class="menu-item-content">
+                    <h3>Es Krim Mango Sorbet</h3>
+                    <p>Es krim mangga sorbet segar yang cocok untuk cuaca panas.</p>
+                    <p class="price">Rp 23.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu9.jpg" alt="Menu 9">
+                <div class="menu-item-content">
+                    <h3>Es Krim Red Velvet</h3>
+                    <p>Es krim dengan rasa red velvet yang creamy dan lembut di lidah.</p>
+                    <p class="price">Rp 26.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu10.jpg" alt="Menu 10">
+                <div class="menu-item-content">
+                    <h3>Es Krim Dark Chocolate</h3>
+                    <p>Es krim dark chocolate dengan rasa cokelat pekat dan aroma yang mendalam.</p>
+                    <p class="price">Rp 29.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/cone.jpg" alt="Menu 11">
+                <div class="menu-item-content">
+                    <h3>Es Krim Cone</h3>
+                    <p>Kenikmatan Es Krim Cone yang Segar dan Lezat.</p>
+                    <p class="price">Rp 15.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/gelato.jpg" alt="Menu 12">
+                <div class="menu-item-content">
+                    <h3>Es Krim Gelato</h3>
+                    <p>Rasakan Gelato Italia Otentik dengan Berbagai Rasa Unik.</p>
+                    <p class="price">Rp 32.000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="page-nav-buttons">
+            <a href="index.html" class="page-nav-button">Sebelumnya</a>
+            <a href="pemesanan.html" class="page-nav-button disabled">Selanjutnya</a>
+        </div>
+
+        <footer>
+            &copy; 2024 RDTreats - Inovasi dalam Es Krim. Semua Hak Cipta Dilindungi.
+        </footer>
+    </div>
+</body>
+</html>
